@@ -1,0 +1,142 @@
+                                                  ASSIGNMENT 1
+
+Q1. Explain the difference between frontend, backend, and full-stack development with suitable real-world examples.
+
+Ans:- 1. Frontend Development: This refers to the visible part of a website or web application that users directly interact with in their browsers (the client side). It is built using technologies like HTML, CSS, and JavaScript.
+
+Real-World Example: The user interface of YouTube, where you see video thumbnails, search bars, and play buttons.
+
+2. Backend Development: This involves the server-side logic, database management, and application architecture that users cannot see. It processes requests, handles user authentication, and ensures secure data flow. It is typically built using languages like Node.js, Python, Java, or PHP.
+
+Real-World Example: The recommendation algorithm and server infrastructure behind YouTube that processes your watch history to suggest new videos.
+
+3. Full-Stack Development: This combines both frontend and full backend development. A full-stack developer has the skills to build and manage both the user-facing interface and the underlying server databases.
+
+Real-World Example: A developer who builds both the interface of an e-commerce checkout page and manages the backend system that processes payments and updates inventory.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2. Create a simple diagram showing how the client-server model works in web architecture.
+
+Ans:- +-------------------+                  +-------------------+
+      |                   |   HTTP Request   |                   |
+      |      Client       | ---------------->|    Web Server     |
+      | (Browser / Device)|                  |                   |
+      |                   | <--------------- |                   |
+      +-------------------+    HTTP Response +-------------------+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3. Describe how a browser requests and displays a web page from a web server.
+
+Ans:- 1. Entering the URL: The user types a web address (URL) into the browser address bar and presses Enter.
+
+2. DNS Lookup: The browser queries a Domain Name System (DNS) server to translate the human-readable domain name into the server's unique IP address.
+
+3. Sending an HTTP Request: Using the IP address, the browser sends an HTTP/HTTPS request over the internet to the web server asking for the website files.
+
+4. Server Processing: The web server receives the request, locates the requested files (HTML, CSS, JavaScript, images), and sends them back to the browser via an HTTP response.
+
+4. Rendering and Display: The browser's rendering engine parses the HTML to build the Document Object Model (DOM), applies CSS styles, executes JavaScript, and paints the final web page onto the user's screen.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4. Identify and list the tools required to set up a web development environment. Explain the
+purpose of each.
+
+Ans:- Code Editor (e.g., VS Code): Used to write, edit, and organize source code files efficiently with features like syntax highlighting and extensions.
+
+Web Browser (e.g., Chrome, Firefox): Used to run, test, and view frontend code, as well as utilize Developer Tools for debugging.
+
+Version Control System (Git & GitHub): Used to track code changes, collaborate with others, and back up code safely in the cloud.
+
+Node.js and npm: A JavaScript runtime environment and package manager required to run local development servers and install external libraries or tools.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q5. Explain what a web server is and give examples of commonly used servers.
+
+Ans:- A web server is a computer system (hardware and software) that stores web content (HTML documents, images, stylesheets, JavaScript files) and serves them over the internet to users upon request via HTTP/HTTPS.
+
+Commonly Used Web Servers:
+
+Apache HTTP Server: A widely used open-source web server known for its flexibility and reliability.
+
+Nginx: A high-performance web server frequently used as a reverse proxy, load balancer, and HTTP cache.
+
+Node.js (HTTP module / Express): A lightweight environment used to build custom backend web servers using JavaScript.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q6. Define the roles of a frontend developer, backend developer, and database administrator
+in a project.
+
+Ans:- Frontend Developer: Responsible for creating the user-facing interface, ensuring responsive design across devices, optimizing user experience (UX), and converting UI/UX designs into functional code.
+
+Backend Developer: Responsible for building server-side logic, managing server communication, handling user authentication, writing APIs, and ensuring application security and performance.
+
+Database Administrator (DBA): Responsible for designing, implementing, securing, backing up, and optimizing databases to ensure data integrity and fast retrieval speeds.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a
+screenshot of the setup.
+
+Ans:- 
+Installation and Setup: Visual Studio Code (VS Code) is already downloaded and installed on the system as the primary code editor for development.
+
+Extensions Configured: Essential web development extensions have been installed to enhance productivity, including Live Server (for real-time preview of HTML/CSS/JS pages) and Prettier (for automated code formatting and clean syntax).
+
+Workspace Setup: The local project repository (Full Stack / HTML-Practice) is successfully opened inside the editor workspace to manage all HTML, CSS, and JavaScript files efficiently.
+
+Screenshot Note: The workspace is fully configured with code files ready, and a screenshot of the VS Code interface showing the active project folder structure has been captured for submission.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q8. Explain the difference between static and dynamic websites. Provide an example of each.
+
+Ans:- Static Website: Consists of fixed web pages coded in HTML and CSS. Every user sees the exact same content, and it doesn't change unless the developer manually updates the source code files.
+Example: A personal portfolio website or a small business landing page describing company info and contact details.
+
+Dynamic Website: Content changes dynamically based on user interaction, time, location, or database records. It often utilizes backend processing and databases.
+Example: Social media feeds (like Instagram or Twitter) or e-commerce sites (like Amazon) where product listings and user feeds update continuously.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q9. Research and list five web browsers. Explain how rendering engines differ between them.
+
+Ans:- Google Chrome: Uses the Blink rendering engine (forked from WebKit). It focuses on high speed and robust web standard compatibility.
+
+Apple Safari: Uses the WebKit rendering engine. It is optimized for macOS and iOS devices for high power efficiency and smooth rendering.
+
+Mozilla Firefox: Uses the Gecko rendering engine. It is an independent engine focusing heavily on web standards, privacy, and customization.
+
+Microsoft Edge: Uses the Blink rendering engine (since its transition to Chromium), making its core compatibility very similar to Chrome.
+
+Tor Browser: Uses the Gecko rendering engine (built on Firefox ESR), but heavily modified with built-in anonymity and privacy protocols.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q10. Draw a labeled diagram showing the basic web architecture flow — client, server,
+database, and APIs.
+
+Ans:- 
+ +-------------------+      API Request       +-------------------+
+|                   | ---------------------> |                   |
+|      Client       |                        |    Web Server     |
+| (Browser / App)   | <--------------------- |  (Backend Logic)  |
+|                   |      API Response      |                   |
++-------------------+                        +-------------------+
+                                                       |
+                                                       | Database Query
+                                                       v
+                                             +-------------------+
+                                             |                   |
+                                             |     Database      |
+                                             | (Data Storage)    |
+                                             |                   |
+                                             +-------------------+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                        

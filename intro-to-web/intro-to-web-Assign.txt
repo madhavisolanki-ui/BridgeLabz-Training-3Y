@@ -41,8 +41,7 @@ Ans:- 1. Entering the URL: The user types a web address (URL) into the browser a
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q4. Identify and list the tools required to set up a web development environment. Explain the
-purpose of each.
+Q4. Identify and list the tools required to set up a web development environment. Explain the purpose of each.
 
 Ans:- Code Editor (e.g., VS Code): Used to write, edit, and organize source code files efficiently with features like syntax highlighting and extensions.
 
@@ -68,8 +67,7 @@ Node.js (HTTP module / Express): A lightweight environment used to build custom 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q6. Define the roles of a frontend developer, backend developer, and database administrator
-in a project.
+Q6. Define the roles of a frontend developer, backend developer, and database administrator in a project.
 
 Ans:- Frontend Developer: Responsible for creating the user-facing interface, ensuring responsive design across devices, optimizing user experience (UX), and converting UI/UX designs into functional code.
 
@@ -79,8 +77,7 @@ Database Administrator (DBA): Responsible for designing, implementing, securing,
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a
-screenshot of the setup.
+Q7. Install VS Code and configure it for HTML, CSS, and JavaScript development. Take a screenshot of the setup.
 
 Ans:- 
 Installation and Setup: Visual Studio Code (VS Code) is already downloaded and installed on the system as the primary code editor for development.
@@ -118,8 +115,7 @@ Tor Browser: Uses the Gecko rendering engine (built on Firefox ESR), but heavily
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Q10. Draw a labeled diagram showing the basic web architecture flow — client, server,
-database, and APIs.
+Q10. Draw a labeled diagram showing the basic web architecture flow — client, server, database, and APIs.
 
 Ans:- 
  +-------------------+      API Request       +-------------------+

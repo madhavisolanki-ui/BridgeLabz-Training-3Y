@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Document
+        </title>
+    </head>
+
+    <body>
+        <h2> Table1 </h2>
+        <table border="2" cellpadding="10" cellspacing="5">
+            <tr>
+                <th colspan="3">StudentInfo</th>
+            </tr>
+
+            <tr>
+                <td>Name</td>
+                <td>Roll</td>
+                <td>Age</td>
+            </tr>
+
+            <tr>
+                <td>Madhavi</td>
+                <td>38</td>
+                <td>18</td>                
+            </tr>
+        </table>
+
+        <h2> Table2 </h2>
+        <table border="3" cellpadding="10" cellspacing="5">
+            <tr>
+                <th rowspan="3"> Name </th>
+                <th> Roll </th>
+                <th> Age </th>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>90</td>
+            </tr>
+        </table>
+
+        <h2> Table3 </h2>
+        <table border="2" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Madhavi</td>
+                <td>Maths</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <!-- Yahan Name wala td hat gaya hai kyunki wo upar merge ho gaya -->
+                <td>Science</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>88</td>
+            </tr>
+        </table>
+    </body>
+
+
+</html>

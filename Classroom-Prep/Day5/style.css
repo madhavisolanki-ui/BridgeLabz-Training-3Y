@@ -1,0 +1,138 @@
+.box {
+    width: 50%;
+    height: auto;
+
+    /* Border */
+    border: 2px solid black;
+    border-radius: 10px;
+
+    /* Margin */
+    margin: 20px;
+
+    /* Background */
+    background-color: lightblue;
+
+    /* Font */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+    /* Text */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+    /* Padding */
+    padding: 20px;
+
+    /* Shadow */
+    box-shadow: 5px 5px 10px gray;
+
+    /* Transparency */
+    opacity: 0.9;
+
+}
+
+
+.box1 {
+    width: 50%;
+    height: auto;
+
+    /* Border */
+    border: 2px solid red;
+    border-radius: 15px;
+
+    /* Margin */
+    margin: 20px;
+
+    /* Background */
+    background-color: lightgreen;
+
+    /* Text */
+    color: black;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+    /* Padding */
+    padding: 20px;
+
+    /* Shadow */
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+
+    /* Border */
+    border: 2px solid black;
+    border-radius: 100px;
+
+    /* Margin */
+    margin: 10px;
+
+    /* Background */
+    background-color: #e2ade6;
+
+    /* Font */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+    /* Text */
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+    /* Padding */
+    padding: 20px;
+
+    /* Shadow */
+    box-shadow: 5px 5px 10px gray;
+
+    /* Transparency */
+    opacity: 0.9;
+}
+
+
+.container {
+    width: 80%;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    background-color: lightblue;
+    background-origin: padding-box;
+    display: flex;
+    gap: 20px
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}

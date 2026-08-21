@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Author information -->
+    <meta name="author" content="Madhavi Solanki">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <h1>Login Form</h1>
+
+    <!-- Login form -->
+    <form>
+
+        <!-- Username field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Password field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!--
+            CSRF token helps protect a form from Cross-Site Request Forgery attacks.
+            It allows the server to verify that the request came from a trusted form.
+        -->
+        <input type="hidden" name="csrf_token" value="dummy-csrf-token-12345">
+
+        <!-- Submit button -->
+        <input type="submit" value="Login">
+
+    </form>
+
+</body>
+</html>

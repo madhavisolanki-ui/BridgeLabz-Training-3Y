@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Author information -->
+    <meta name="author" content="Madhavi Solanki">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Contact Form</title>
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <h1>Contact Us</h1>
+
+    <!-- Contact form -->
+    <form method="post" action="#">
+
+        <!-- Full Name -->
+        <label for="fullName">Full Name:</label>
+        <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Enter your full name"
+            required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required>
+        <br><br>
+
+        <!-- Subject -->
+        <label for="subject">Subject:</label>
+        <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Enter the subject"
+            required>
+        <br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label>
+        <br>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            cols="40"
+            placeholder="Write your message here"
+            required></textarea>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Send Message">
+
+    </form>
+
+</body>
+</html>

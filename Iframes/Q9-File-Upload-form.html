@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Author information -->
+    <meta name="author" content="Madhavi Solanki">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>File Upload Form</title>
+</head>
+
+<body>
+
+    <!-- Main heading -->
+    <h1>File Upload Form</h1>
+
+    <!-- File upload form -->
+    <form method="post" action="#">
+
+        <!-- File type information -->
+        <p>
+            Please upload only JPG or PNG image files.
+        </p>
+
+        <!-- File upload field -->
+        <label for="file">Choose an image:</label>
+        <input type="file" id="file" name="file" accept=".jpg, .png" required>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Upload File">
+
+    </form>
+
+</body>
+</html>

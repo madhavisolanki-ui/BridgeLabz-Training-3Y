@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Student Report</title>
+</head>
+
+<body>
+
+    <center>
+
+        <!-- ================= SCHOOL NAME ================= -->
+        <h1>Sunrise Public School</h1>
+
+        <h2>Student Academic Report</h2>
+
+        <!-- ================= STUDENT INFORMATION ================= -->
+        <table border="1">
+
+            <tr>
+                <th title="Student's full name">Student Name</th>
+                <td>Arjun Sharma</td>
+
+                <th title="Student's roll number">Roll Number</th>
+                <td>SP2026-025</td>
+            </tr>
+
+            <!-- rowspan makes this heading cover two rows -->
+            <tr>
+                <th rowspan="2" title="Academic information">
+                    Academic Year
+                </th>
+
+                <td rowspan="2">2025-2026</td>
+
+                <th title="Student's class">Class</th>
+                <td>12th</td>
+            </tr>
+
+            <tr>
+                <th title="Student's section">Section</th>
+                <td>A</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <!-- ================= MARKS TABLE ================= -->
+        <table border="1">
+
+            <thead>
+
+                <tr>
+                    <!-- colspan combines all columns -->
+                    <th colspan="4" title="Subject-wise marks">
+                        Subject-wise Marks
+                    </th>
+                </tr>
+
+                <tr>
+                    <th title="Name of the subject">Subject</th>
+                    <th title="Maximum marks">Maximum Marks</th>
+                    <th title="Marks obtained by student">Marks Obtained</th>
+                    <th title="Pass or fail status">Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Mathematics</td>
+                    <td>100</td>
+                    <td>92</td>
+                    <td>Pass</td>
+                </tr>
+
+                <tr>
+                    <td>Physics</td>
+                    <td>100</td>
+                    <td>86</td>
+                    <td>Pass</td>
+                </tr>
+
+                <tr>
+                    <td>Chemistry</td>
+                    <td>100</td>
+                    <td>89</td>
+                    <td>Pass</td>
+                </tr>
+
+                <tr>
+                    <td>English</td>
+                    <td>100</td>
+                    <td>94</td>
+                    <td>Pass</td>
+                </tr>
+
+                <tr>
+                    <td>Computer Science</td>
+                    <td>100</td>
+                    <td>96</td>
+                    <td>Pass</td>
+                </tr>
+
+            </tbody>
+
+            <!-- ================= TOTAL AND PERCENTAGE ================= -->
+            <tfoot>
+
+                <tr>
+                    <th colspan="2">Total</th>
+                    <td colspan="2">457 / 500</td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">Percentage</th>
+                    <td colspan="2">91.4%</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+
+        <br>
+
+        <!-- ================= FOOTER ================= -->
+        <footer>
+            <p title="School copyright information">
+                &copy; 2026 Sunrise Public School. All Rights Reserved.
+            </p>
+        </footer>
+
+    </center>
+
+</body>
+
+</html>

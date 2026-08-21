@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Course Registration Form</title>
+</head>
+
+<body>
+
+    <!-- ================= PAGE HEADING ================= -->
+    <h1>Course Registration Form</h1>
+
+    <!-- ================= REGISTRATION FORM ================= -->
+    <form>
+
+        <!-- Fieldset groups all registration fields -->
+        <fieldset>
+
+            <!-- Legend gives a title to the fieldset -->
+            <legend>Student Information</legend>
+
+            <!-- Name Field -->
+            <label for="name">Full Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+            >
+
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <br><br>
+
+            <!-- Course Selection -->
+            <label for="course">Select Course:</label>
+
+            <select id="course" name="course" required>
+                <option value="">-- Select a Course --</option>
+                <option value="web-development">Web Development</option>
+                <option value="data-structures">Data Structures</option>
+                <option value="machine-learning">Machine Learning</option>
+                <option value="database-management">
+                    Database Management
+                </option>
+            </select>
+
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+
+        </fieldset>
+
+    </form>
+
+    <br>
+
+    <!-- ================= COURSE SCHEDULE ================= -->
+    <h2>Available Course Schedules</h2>
+
+    <table border="1">
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+
+        <!-- Schedule Details -->
+        <tbody>
+
+            <tr>
+                <td>Monday</td>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>Rahul Sharma</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>Priya Singh</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>Amit Verma</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>3:00 PM - 5:00 PM</td>
+                <td>Neha Gupta</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
